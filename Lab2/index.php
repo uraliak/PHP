@@ -24,40 +24,42 @@
         </div>
     </header>
     <main>
-      <div class="container">
-        <form method="POST" action="back.php">
-          <legend>Feedback form</legend>
-          <div class="mb-3">
-            <label for="disabledTextInput" class="form-label">Name</label>
-            <input type="text" name="name" class="form-control" placeholder="Enter your name">
-          </div>
-          <div class="mb-3">
-            <label for="disabledTextInput" class="form-label">E-mail</label>
-            <input type="text" name="e-mail" class="form-control" placeholder="Enter your e-mail">
-          </div>
-          <div class="mb-3">
-            <label for="disabledSelect" class="form-label">Type</label>
-            <select name="select" class="form-select">
-              <option name="good">Good</option>
-              <option name="bad">Жалоба</option>
-              <option name="qustions">Вопрос</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <textarea name="text" id="" cols="30" rows="10"></textarea>
-          </div>
-          <div class="mb-3">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="sms">
-              <label class="form-check-label" for="disabledFieldsetCheck">sms</label>
+      <div class="main__wrapper">
+        <div class="container">
+          <form method="POST" action="back.php">
+            <legend>Feedback form</legend>
+            <div class="mb-3">
+              <label for="disabledTextInput" class="form-label">Name</label>
+              <input type="text" name="name" class="form-control" placeholder="Enter your name">
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="check-email">
-              <label class="form-check-label" for="disabledFieldsetCheck">e-mail</label>
+            <div class="mb-3">
+              <label for="disabledTextInput" class="form-label">E-mail</label>
+              <input type="text" name="e-mail" class="form-control" placeholder="Enter your e-mail">
             </div>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+            <div class="mb-3">
+              <label for="disabledSelect" class="form-label">Type</label>
+              <select name="select" class="form-select">
+                <option name="good">Good</option>
+                <option name="bad">Жалоба</option>
+                <option name="qustions">Вопрос</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <textarea name="text" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="sms">
+                <label class="form-check-label" for="disabledFieldsetCheck">sms</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="check-email">
+                <label class="form-check-label" for="disabledFieldsetCheck">e-mail</label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
     </main>
     <footer>
         <div class="footer__wrapper">
