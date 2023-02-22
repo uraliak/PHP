@@ -1,0 +1,24 @@
+.logo__image{
+    width: 300px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.header__heading{
+    text-align: center;
+    color: black;
+}
+
+.header__wrapper{
+    margin-top: 37px;
+    margin-bottom: 180px;
+    margin-left: 20px;
+}
+
+.main__wrapper{
+    margin-bottom: 190px;
+}
+
+.footer__wrapper{
+    margin-left: 20px;
+}
