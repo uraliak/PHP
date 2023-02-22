@@ -36,17 +36,17 @@
             <input type="text" name="e-mail" class="form-control" placeholder="Enter your e-mail">
           </div>
           <div class="mb-3">
-            <label for="disabledSelect" class="form-label">Type of appeal</label>
+            <label for="disabledSelect" class="form-label">Type of appeal: </label>
             <select name="select" class="form-select">
               <option name="complaint">complaint</option>
               <option name="proposal">proposal</option>
               <option name="gratitude<">gratitude</option>
             </select>
           </div>
-          <div class="mb-3">Comment
+          <div class="mb-3">
             <textarea name="text" id="" cols="30" rows="10"></textarea>
           </div>
-          <div class="mb-3">Answer option
+          <div class="mb-3">Answer option: 
             <div class="form-check">
               <input class="form-check-input" type="checkbox" name="sms">
               <label class="form-check-label" for="disabledFieldsetCheck">sms</label>
