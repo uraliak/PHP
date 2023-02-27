@@ -19,7 +19,7 @@
         <div class="get-container">
             <textarea name="text" id="" cols="70" rows="70">
                 <?php
-                    print_r(get_headers('https://getbootstrap.com/docs/5.3/forms/overview/#disabled-forms'));
+                    print_r(get_headers('https://getbootstrap.com/docs/5.3/forms/overview/#overview'));
                 ?>
             </textarea>
         </div>
